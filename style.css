@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    
+}
+
+body{
+    background-color:#444345 ;
+}
+
+p,ol{
+    
+    font-size: 18px;
+}
+li{
+    margin-bottom: 15px;
+}
+
+h1,h2,h3,h4,p{
+    margin-bottom: 5px;
+}
+
+
+
+.page{
+    max-width: 1150px;
+    padding: 50px 80px;
+    margin: 0px auto;
+    height:100%;
+    
+}
+
+.center{
+    margin: 0px auto;
+    display: block;
+}
+
+@media (min-width:200px) and (max-width:768px) {
+    .page{
+        padding: 20px 30px;
+    }
+    img{
+        width:100%;
+    }
+    p{
+        font-size: 14px!important;
+    }
+    
+}
